@@ -1,7 +1,4 @@
 import { useDonationStore } from "../infrastructure/lib/store";
-import { useQuery } from "@apollo/client";
-import { GET_DONATIONS } from "../infrastructure/graphql/queries";
-import client from "../infrastructure/services/apollo-client";
 import { DashboardHeader } from "../presentation/components/dashboard/header";
 import { StatsCard } from "../presentation/components/dashboard/stats-card";
 import { calculateTotalDonations } from "../infrastructure/lib/utils";

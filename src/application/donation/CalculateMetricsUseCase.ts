@@ -1,4 +1,4 @@
-import { Donation } from "../domain/entities/Donation";
+import { Donation } from "../../domain/entities/Donation";
 
 export class CalculateMetricsUseCase {
   execute(donations: Donation[]) {
