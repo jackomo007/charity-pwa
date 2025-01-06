@@ -1,7 +1,5 @@
 "use client";
 
-import { Button } from "../ui/button";
-import { ArrowUpRight } from "lucide-react";
 import { DonationDialog } from "./donation/donation-dialog";
 
 export function DashboardHeader() {
